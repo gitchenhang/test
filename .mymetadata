@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Gcs_webservice"
+  id="myeclipse.1463654336095"
+  context-root="/Gcs_webservice"
+  j2ee-spec="5.0"
+  archive="Gcs_webservice.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

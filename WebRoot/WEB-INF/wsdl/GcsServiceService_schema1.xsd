@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://service.gcs.com/" targetNamespace="http://service.gcs.com/" version="1.0">
+
+  <xs:element name="csg_message" type="tns:csg_message"/>
+
+  <xs:element name="csg_messageResponse" type="tns:csg_messageResponse"/>
+
+  <xs:complexType name="csg_message">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="vssid" type="xs:string"/>
+      <xs:element minOccurs="0" name="data" type="xs:string"/>
+      <xs:element minOccurs="0" name="token" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="csg_messageResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
